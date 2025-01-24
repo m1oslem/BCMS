@@ -2,11 +2,11 @@
 Braches Camera Monitoring System
 
 
-sudo apt install -y docker.io
-sudo systemctl start docker
-sudo systemctl enable docker
-mkdir -p ~/viseron/recordings
-mkdir -p ~/viseron/config
+  sudo apt install -y docker.io
+  sudo systemctl start docker
+  sudo systemctl enable docker 
+  mkdir -p ~/viseron/recordings
+  mkdir -p ~/viseron/config
 
 
 docker run -d --restart unless-stopped \
