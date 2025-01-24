@@ -1,0 +1,9 @@
+edit_user
+            <select name="role" required>
+                <option value="admin" <?php echo $role === 'admin' ? 'selected' : ''; ?>>admin</option>
+                <option value="manager" <?php echo $role === 'editor' ? 'selected' : ''; ?>>manger</option>
+                <option value="user" <?php echo $role === 'viewer' ? 'selected' : ''; ?>>user</option>
+                <option value="employ" <?php echo $role === 'viewer' ? 'selected' : ''; ?>>employee</option>
+            </select>
+
+        
